@@ -42,6 +42,8 @@ def dev_name():
 
 
 
+
+@app.get("/api/catalog")
 def get_catalog():
     return json.dumps(mock_data)
 
